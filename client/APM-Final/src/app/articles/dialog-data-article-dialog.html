@@ -1,0 +1,16 @@
+<h1 mat-dialog-title>Edit Article</h1>
+<div mat-dialog-content>
+Title:
+<br>
+<input type="text" [(ngModel)]="data.article.title"/>
+<br>
+Content:
+<br>
+<textarea rows="10" cols="22" [(ngModel)]="data.article.content"></textarea>
+<br>
+Tags:
+<br>
+<input type="text" [(ngModel)]="data.article.tags"/>
+<br><br>
+    <button (click)="updateArticle(data.article._id, data.article.title, data.article.content , data.article.tags)" class="btn btn-success pull-right">Update</button>
+</div>

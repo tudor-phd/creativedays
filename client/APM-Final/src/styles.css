@@ -1,0 +1,26 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+li {
+    font-size: large;
+}
+
+body{
+    background-image: url('https://creativedays.endava.com/assets/img/hero1.png')
+}
+
+div.panel-heading {
+   font-size: x-large;
+}
+
+.navbar-brand{
+    color: #882A1B!important;
+}
+
+.panel-heading{
+    background-color: #882A1B!important;
+    border-color: #882A1B!important;
+}
+
+.panel{
+    min-height: 650px;
+}

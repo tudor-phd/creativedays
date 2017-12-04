@@ -1,0 +1,8 @@
+<h1 mat-dialog-title>Add article</h1>
+<div mat-dialog-content>
+    <input [(ngModel)]="addTitle" placeholder="Title" type="text"/><br><br>
+    <textarea [(ngModel)]="addContent" rows="10" cols="22" placeholder="Content"></textarea><br><br>
+    <input [(ngModel)]="addLocation"  placeholder="Your location" type="text"/><br><br>
+    <input [(ngModel)]="addTags" placeholder="Tags" type="text"/><br><br>
+    <button (click)="addArticle(addTitle, addContent, addLocation, addTags)" class="btn btn-success pull-right">Save</button>
+</div>
